@@ -1,0 +1,5 @@
+Q1. Write a javaint  program that prints all the real solutions to the quadratic equation ax^2 + bx + c = . Read the value of a,b and c from the user and use the quadratic formula. If D(b^2 - 4ac) is -ve display a message "There are no real solutions".
+Q2. Write a java program to generate the sorted order of an array.
+Q3. Write a java program to find the second largest element of an array.
+Q4. Write a java program to implement constructer overloading.
+Q5. Class wala java programbc.
