@@ -17,8 +17,8 @@ class Array{
         return nigga;     
     }
     
-    int sumArray(int[][] array, int row, int col){
-        int sum=0;
+    int[][] multArray(int[][] array, int row, int col){
+        int 
         for(int i=0; i<row; i++)
             for(int j=0; j<col; j++)
                 sum += array[i][j];
