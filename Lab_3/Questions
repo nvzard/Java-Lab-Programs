@@ -1,0 +1,19 @@
+Q1. Write a java program to input name, age, marks in physics , chemistry and mathematics and calculate grade according to the following.
+    -if avg is greater than equal to 90, then grade equal to A++
+    -if avg is greater than equal to 80, and less than 90 than gread equal to A+
+    -if avg is greater than equal to 70 and less than 80 than grade equal to A
+    -if avg >= 80 and avg<80 -->A
+    -if avg >= 50 && avg<50 then grade -->B+
+    -if avg>=40 && avg<50 then grafe -->B
+    -if avg >= 35 && avg<40 then grade -->C
+    -if avg<35 then grade is F
+
+Write a main class to test this class.
+
+Q2. Write a java program to input 10 numbers and print sum of those numbers.
+
+Q3. Write a java program to find transpose of a matrix.
+
+Q4. Write a java program to perform matrix multiplication
+
+Q5. Write a java program to input a comples value with its real and imaginary value and add 2 complex values using the concept of passing object as an argument. Write a main method to test this complex class.
