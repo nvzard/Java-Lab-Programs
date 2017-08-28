@@ -27,22 +27,26 @@ class Student{
         double avg = (physics+chemistry+maths)/3;
 
         if(avg >= 90)
-            System.out.println("Grade is A++");
+            print("Grade is A++");
         else if(avg >= 80 && avg<90)
-            System.out.println("Grade is A+");
+            print("Grade is A+");
         else if(avg >= 70 && avg<80)
-            System.out.println("Grade is A");
+            print("Grade is A");
         else if(avg >= 60 && avg<70)
-            System.out.println("Grade is B++");
+            print("Grade is B++");
         else if(avg >= 50 && avg<60)
-            System.out.println("Grade is B+");
+            print("Grade is B+");
         else if(avg >= 40 && avg<50)
-            System.out.println("Grade is B");
+            print("Grade is B");
         else if(avg >= 35 && avg<40)
-            System.out.println("Grade is C");
+            print("Grade is C");
         else if(avg < 35)
-            System.out.println("Grade is F");
+            print("Grade is F");
         
+    }
+
+    void print(String text){
+        System.out.println(text);
     }
 
 }
