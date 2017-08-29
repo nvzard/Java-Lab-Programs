@@ -1,0 +1,8 @@
+Q1. Write a java program to genetrate a set of random numbers and calculate its sum and average. The program should also display astricks(*) on the basis of random number generated.
+
+Q2.Write a java program to implement money class. This class should have fields for initializing a rupee and paisa value. The paisa value will be in the range of 0-99 with the paisa being the same sign as that of rupees the class should have all reasonable constructors, addition and subtraction methods and a main method that provides a through test of all the methods in the class.
+
+Q3. Create a class rectangle which has 2 attributes length and width, each of which defaults to 0. It has method that calculates the perimeter and area of rectangle. It has set and get method for both length and width. The set method should verify that length and width are floating point numbers larger than 0.0 and less than 20.0. Write a main class to test rectangle class.
+
+Q4. Create a class circle with 2 member variable pi and radius. Make the value of pi constant.It constists of 2 menthods setRadius which is parametrized method and accepts the value of radius from the user. calcArea method calculates and returns the value of area. It has another method named as circle circumference which computes the circumference of circle. It consists of another method named as arc length, which computes the length of arc of a given angle. Within the
+main method of class Circle. Create an object of class circle and compute circle circumference when radius equal to 10, compute area when radius is 10.956 and arc length when angle is 45 degree.
