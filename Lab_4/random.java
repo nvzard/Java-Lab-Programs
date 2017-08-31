@@ -13,7 +13,7 @@ class Rand{
             rand = obj.nextInt(10) + 1;
             sum += rand;
             System.out.println("The number is: "+ rand);
-            System.out.print("Start Pattern: ");
+            System.out.print("Star Pattern: ");
             for(int j=0; j<rand; j++)
                 System.out.print("*");
             System.out.println();
