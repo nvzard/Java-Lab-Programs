@@ -10,7 +10,8 @@ class Outer{
     static int s = 99;
 
     class Inner{
-               
+        
+        int inner = 88;
         void innerMethod(){
             System.out.println("Inner method "+x);
         } 
