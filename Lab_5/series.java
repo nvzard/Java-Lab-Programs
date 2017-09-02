@@ -56,10 +56,9 @@ class Driver{
         
         Series obj =new Series();
 
-        obj.series_1(2);
-        obj.series_2(3);
-        obj.series_3(3);
-//        System.out.println(obj.factorial(1)); 
+        obj.series_1(4);
+        obj.series_2(4);
+        obj.series_3(4); 
     }
 
 }

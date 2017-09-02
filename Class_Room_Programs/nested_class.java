@@ -3,10 +3,12 @@ class Outer{
 
     void outerMethod(){
         obj.innerMethod();
+        //System.out.println(inner);
         InnerStatic.innerStaticMethod();
     }
     
-    int x =57;
+    private int x =57;
+
     static int s = 99;
 
     class Inner{
