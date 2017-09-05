@@ -5,6 +5,7 @@ class Outer{
         obj.innerMethod();
         //System.out.println(inner);
         InnerStatic.innerStaticMethod();
+        
     }
     
     private int x =57;
@@ -13,11 +14,12 @@ class Outer{
 
     class Inner{
         
+        private int ix = 999;
         int inner = 88;
         void innerMethod(){
-            System.out.println("Inner method "+x);
+            System.out.println("Inner method "+x +" "+ix );
         } 
-   
+        
     }
 
     static class InnerStatic{
@@ -36,9 +38,11 @@ class Driver{
 
     public static void main(String[] args){
 
-        Outer obj = new Outer();
+        Outer ob1 = new Outer();
 
-        obj.outerMethod();
+        
+        ob1.outerMethod();
+        ob1.obj.innerMethod();
     }
 }
 
