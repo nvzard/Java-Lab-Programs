@@ -1,0 +1,6 @@
+/*Create a class names as normal calculator that belong to package p1. The class have 2 method named as addition and subtraction of 2 integers. A class named scientific calculator belong to package p2, which provides 2 more methods i.e division and multiplication. Using the above class create a class m1 in package p3 that performs aritmatic op dependin on user's choice.
+ * Note:- Use the concept of variable as an argument
+ */
+
+
+
