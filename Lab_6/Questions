@@ -1,6 +1,6 @@
 Q1. Create a class named as normal calculator that belongs to package p1. The class have two methods addition and subtraction that performs addition and subtraction of two integers. Then again create a class named scientific calculator belongs to package p2 which provides two more methods i.e. division and multiplication of 2 integers. Using the above class create a class m1 in package p3 that performs arithmatic operation depending on user's choice?
     Note: Use the concept of variable as an argument in all methods and constructors.
 
-Q2. WAJP t oshow the use of final keyword with respect to variable, methods and class seperately ?
+Q2. WAJP to show the use of final keyword with respect to variable, methods and class seperately ?
 
 Q3. WAJP to test access specifiers with respect to packages ?
