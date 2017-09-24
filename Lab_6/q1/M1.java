@@ -3,7 +3,7 @@ package p3;
 import p1.*;
 import p2.*;
 
-public class M1{
+class M1{
 
     public static void main(String[] args){
         
