@@ -9,8 +9,9 @@ class Transpose{
 
         int trans[][] = new int[n][m];
 
-        for(int i=0; i<n*m; i++)
-                System.arraycopy(matrix[i],index, trans[i],inde:x, 1);
+        for(int i=0; i<m; i++)
+            for(int j=0; j<n; j++)
+                System.arraycopy(matrix[i],j, trans[j],i, 1);
 
         return trans;
     }
@@ -34,8 +35,8 @@ class Main{
         Transpose obj = new Transpose();
 
         int[][] matrix = {{1,2,3}, {4,5,6}, {7,8,9}};
-        obj.print(matrix);
         matrix = obj.transpose(matrix);
+        System.out.println("Transpose is: ");
         obj.print(matrix);
     }
 }
