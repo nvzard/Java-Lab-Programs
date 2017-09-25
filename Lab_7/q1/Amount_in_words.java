@@ -46,12 +46,6 @@ public class Amount_in_words{
         return array;
     }
 
-    void test(){
-        int[] arr = numToarray(12345);
-        for(int i=0; i<arr.length; i++)
-            System.out.print(arr[i]);
-    }
-
     public void convert(int num){
         StringBuilder result = new StringBuilder("");
         int[] arr = numToarray(num);
