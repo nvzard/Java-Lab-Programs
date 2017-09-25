@@ -1,0 +1,5 @@
+Q1.  Create a class named as Amount_in_words in a package named p1 for the conversion of given or provided amount in words.Consider the amount
+        to be not more than  one lakh.Write a main class to test this package. 
+Q2.  Write a program to transpose a matrix using arraycopy command. 
+Q3.  Write a java program to check whether a string is palindrome or not.
+Q4. Write a java enum constant having inner class.
