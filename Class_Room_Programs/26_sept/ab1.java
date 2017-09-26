@@ -18,7 +18,7 @@ class domestic extends Elect_bill{
     void calculate_bill(int units){
 
     get_rate();
-    System.out.println("Domestic bill is: ", units*rate);
+    System.out.println("Domestic bill is: "+ units*rate);
 
     }
 }
@@ -36,7 +36,7 @@ class commercial extends Elect_bill{
 
     void calculate_bill(int units){
         get_rate();
-        System.out.println("Commercial bill is: ",units*rate);
+        System.out.println("Commercial bill is: "+units*rate);
     }
 
 
