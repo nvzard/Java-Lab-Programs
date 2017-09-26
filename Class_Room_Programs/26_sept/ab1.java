@@ -1,7 +1,7 @@
 abstract class Elect_bill{
 
     abstract void get_rate();
-    abstract void calculate_bill();
+    abstract void calculate_bill(int units);
     double rate; 
 
 }
