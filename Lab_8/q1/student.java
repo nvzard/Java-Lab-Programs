@@ -26,12 +26,11 @@ class Student_info{
 
 class Student_regular extends Student_info{
 
-
     Student_regular(String a, String b, String c, String d){
         
         super(a,b,c,d);
+    
     }
-
 }
 
 
@@ -47,10 +46,13 @@ class Student_etc extends Student_regular{
 
     void display(){
 
+        /*
         System.out.println("Name: "+name);
         System.out.println("Address: "+address);
         System.out.println("Branch: "+branch);
         System.out.println("Department: "+department);
+        */
+        super.display();
         System.out.println("Marks: "+marks);
         System.out.println("Attendance: "+attendance+"%");
 

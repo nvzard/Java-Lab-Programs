@@ -45,19 +45,31 @@ class Part_time_employee extends Employee{
         this.rph = rph;
     }
 
+    void calculate_pay(){
+        System.out.println("Amount Payable: "+rph*w_hrs);
+    }
+
     void display(){
         super.display();
         System.out.println("Working Hours: "+w_hrs+"\nRate/hr: "+rph);
-
+        calculate_pay();
     }
 
 }
 
 class Main{
     public static void main(String args[]){
+    
+        Employee emp = new Employee("Nikhil", "Mumbai");
+
 
         Full_time_employee full = new Full_time_employee("Nikhil", "Mumbai","Cleaner", 10);
+        Part_time_employee part = new Part_time_employee("Nikhil", "Mumbai", 24, 10);
 
+        emp.display();
+        System.out.println();
+        part.display();
+        System.out.println();
         full.display();
 
     }

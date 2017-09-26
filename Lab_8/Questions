@@ -21,6 +21,8 @@ Q2. Create a class names employee with the following details.
 
     Create main class with appropriate constructors to test all the three classes
 
-Q3. Sat class...
+Q3. Define a class motor vehicle as described below. It consists of the following data numbers i.e. model name, model no. , model price. It consists of a method named as display which display the name, price and model no.
+
+Define another class named as car that inherits the class motor vehicle and has discount rate as a data member. It consists of following methods i.e display to show the car name, car model no., car price and the discount rate. It consists of another method named as discount with compute the discount. Create a main class with suitable constructors to test motor_vehicle and car_class.
 
 
