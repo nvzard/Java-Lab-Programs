@@ -1,0 +1,7 @@
+Q1. Class: electricity bill(abstract)
+Method: get rate, claculate_bill(abstract)
+
+Class named as domestic_connection which inherit elect bill class. there
+is another class named as commercial connection which inherit elect. bill class. Write a main class to test all these classes.
+
+Unit rate : 5.25 Rs/unit(Domestic) ,Rs10.50 (Commercial)

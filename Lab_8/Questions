@@ -1,0 +1,26 @@
+Q1. Create a class named student_info with the following data members:
+    fields: name, address, branch and department
+    methods: display(to show the student details).
+    Derive a sub class from the super class and name it student_regular.
+    Further extend this class and create another class student_etc that will
+    inherit method and variables of student_info class and having following
+    data members i.e marks and attendance. It consists of method display to
+    show marks and attendance along with other details. Write a main class
+    to test all these classes with necessary constructors.
+
+Q2. Create a class names employee with the following details.
+    var :Name, address
+    methods: display(to show employee details)
+    Create anothre class full time employee that inherits the employee class.
+    var: salary, desgn.
+    Method: display to show the salary and desgn along with other employee details.
+    
+    Create another class part_time_employee that inherits the employee class.
+    var: working_hrs, rate_per_hr
+    Methods: calculate pay to calculate the amount payable, display to show the ammount payable with other employee details.
+
+    Create main class with appropriate constructors to test all the three classes
+
+Q3. Sat class...
+
+

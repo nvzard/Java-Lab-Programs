@@ -5,7 +5,7 @@ class Main{
 
         Amount_in_words obj = new Amount_in_words();
         
-        obj.convert(1234567);  
+        obj.convert(7654321);  
     }
 }
 
