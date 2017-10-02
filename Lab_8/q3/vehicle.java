@@ -21,13 +21,13 @@ class Car extends MV{
     int drate;
 
     Car(String mname, String mno, int mprice, int drate){
-        super(mname, mno,mprice);
+        super(mname, mno, mprice);
         this.drate = drate;
     }
     
     void discount(){
 
-        int disc = mprice - mprice*(drate/100);
+        double disc = (double)mprice - mprice*((double)drate/100);
         System.out.println("Discounted price is: "+disc);
     
     }
