@@ -89,7 +89,8 @@ class Driver{
     Savings_account sav = new Savings_account(16910, 15000, 8, "Nitanshu", "Jaipur");
     Current_account cur = new Current_account(15910, 20000, 50000, "Arjun", "Khanna");
 
-
+    sav.display();
+    cur.display();
 
     }
 
