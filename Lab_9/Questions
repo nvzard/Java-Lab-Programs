@@ -1,0 +1,40 @@
+    Q1. Create an abstract class account with the following details.
+    It comprises of following data members i.e. balance, acc. no, acc. holder's 
+    name, address
+    It consists of following methods:- withdral, deposit, display.
+    Withdraw and deposit are abstract methods. Display method is used to show the
+    balance of the account number.
+    Create a sub class of this(account) class savings_account and add the
+    following details:- members:-rate_of_interest. methods:- calcu_amount,
+    display(used to display rate of interese with new balance and full account
+    holder details).
+    Create another sub class of the account class i.e. current_account with the
+    following details. Members:-over_draft_limit. Methods:-display(shows over
+    draft limit along with the full account holder details.)
+
+    Create object of these 2 classes in the main class and call their methods.
+    Use appropriate constructors for providig values.
+
+    Q2.Design an interface named infacex, with the method reverse that reverses
+    the digits of a number. Write a main class to test this interface.
+
+
+
+    Q3.Create an interface named shape that contains method named as number of 
+    sides. Provide 3 classes named trapezoid, triange and hexagon, such that each
+    one of the classes contains only the method no. of sides(that contains no. of
+    sides in the given geometrical figure. Write a main class to test all these 
+    classes and use constructors if required.
+
+    Q4.Create an interface named infaceA having method named as mean which
+    calculates the mean of the given number arranged in an array. This interface
+    is then extended(infaceB) that calculates the deviation from the mean value 
+    evaluated for each of the numbers. Write a class and main class to test these
+    interfaces
+    
+    Q5.Create an interface named rodent, it consists of display method.
+    Implement rodent interface in the classes named as Mouse, Garvil, Hamster.
+    Define method named as show in all the three classes which shows the
+    behaviour of different categories(mouse, garvil, hamster). Create an array of
+    rodent, fill it with different specific types of rodent and display its
+    property.
