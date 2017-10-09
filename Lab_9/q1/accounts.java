@@ -40,7 +40,6 @@ class Savings_account extends Account{
     }
 
     void display(){
-        calculate_amount();
         System.out.println("Account no: "+acc_no);
         System.out.println("Holder's Name: "+name);
         System.out.println("Holder's Address: "+address);
@@ -73,11 +72,11 @@ class Current_account extends Account{
     }
 
     void display(){
+        super.display();
         System.out.println("Over Draft Limit is: "+over_draft_limit);
         System.out.println("Account no: "+acc_no);
         System.out.println("Holder's Name: "+name);
-        System.out.println("Holder's Address: "+address);
-        System.out.println("Balance: "+balance);
+        System.out.println("Holder's Address: "+address);      
     }
 
 }
