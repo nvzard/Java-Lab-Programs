@@ -5,7 +5,7 @@ interface infaceA{
 }
 
 interface infaceB extends infaceA{
-    void deviation(double mean, int[] array);
+    void deviation(int[] array);
 }
 
 class Stats implements infaceB{
@@ -22,11 +22,11 @@ class Stats implements infaceB{
         return mean;
     }
 
-    public void deviation(double mean, int[] array){
+    public void deviation(int[] array){
 
         double[] dev = new double[array.length];
         double sum=0;
-
+        double mean = mean(array);
         for(int i=0; i<dev.length; i++){
             dev[i] = Math.abs(array[i]-mean);
             sum += dev[i];
@@ -44,7 +44,7 @@ class Driver{
             int data[] = {3,6,6,7,8,11,15,16};
 
             Stats obj = new Stats();
-            obj.deviation(obj.mean(data), data);
+            obj.deviation(data);
 
         }
 }
