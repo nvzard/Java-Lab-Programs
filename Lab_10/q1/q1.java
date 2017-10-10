@@ -26,7 +26,7 @@ class Driver{
 
 */
 
-    StringTokenizer exp = new StringTokenizer(expression," ");
+    StringTokenizer exp = new StringTokenizer(expression,"/\\ \\+\\-\\%\\*\\");
     System.out.println("\nExpression:\n");
     System.out.println("No of Tokens: "+exp.countTokens());
     while(exp.hasMoreTokens())
