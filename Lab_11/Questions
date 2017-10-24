@@ -1,0 +1,14 @@
+Q1. Write a java program to show the polymorphism of main method.
+
+Q2. Create a class named as Display, in this class we have 4 methods named
+    as disp. All there methods have different access modifiers i.e private,
+    default, protected and public.
+    Write a main class which test the display class and check that disp method
+    are overloaded properly.
+
+Q3. Create class named as calculate which consist of parameterized methods
+    named as calci with 2 overloaded form. One form is static and another form
+    is non static. Write a main class to test calculate class and make sure
+    that methods are overloaded properly.
+
+Q4. Class static polymorphism question.
