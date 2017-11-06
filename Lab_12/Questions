@@ -1,0 +1,13 @@
+Q1. Create a user defined exception named CheckArgument to check the no.
+    of arguments passed through command line. If the no of arguments passed
+    through command line. If the no. of arguments is less than 5, then throw
+    the CheckArgument exception else print the addition of all the 5 nos.
+
+Q2. Consider a student examination database that prints the mark sheet of 
+    students. Input the following from the command line, i.e. student's 
+    name, marks in 5 subjects. These marks should be b/w 0 and 50 if the
+    marks are not in the specified range then raise a range exception 
+    else find the total marks and print the percentage of the students.
+
+(Note: I have Implemented logic of both the question in a single solution
+        q1_q2.java)
