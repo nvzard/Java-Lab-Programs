@@ -1,0 +1,5 @@
+
+class CheckArgument extends Exception{
+    
+
+    

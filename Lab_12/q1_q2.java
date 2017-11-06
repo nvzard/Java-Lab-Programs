@@ -16,7 +16,6 @@ class CheckArgument extends Exception{
 
 class Student{
     String name;
-    int p, c, m, e, cs;
 
     Student(String name){
 	this.name = name;
