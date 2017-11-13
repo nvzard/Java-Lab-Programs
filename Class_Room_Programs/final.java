@@ -1,8 +1,8 @@
 class ImmutableClass{
     final int value;
 
-    ImmutableClass( /*final int aValue*/){
-        value = 69;
+    ImmutableClass(final int aValue){
+        this.value = aValue;
     }
 
     public int getValue(){
@@ -14,9 +14,9 @@ class ImmutableClass{
 class Driver{
     public static void main(String[] args){
 
-        ImmutableClass obj = new ImmutableClass();
+        ImmutableClass obj = new ImmutableClass(12);
         System.out.println(obj.getValue());
-        ImmutableClass obj1 = new ImmutableClass();
-        System.out.println(obj1.getValue());
+        obj = new ImmutableClass(44);
+        System.out.println(obj.getValue());
     }
 }
